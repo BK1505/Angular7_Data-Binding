@@ -1,0 +1,14 @@
+<h1>Data Binding In Angular</h1>
+<br />
+<p>
+  Enter First Number:
+  <input [(ngModel)]="a" />
+  <!--this is Two Way data binding   Property+Event -->
+</p>
+<p>
+  Enter Second Number:
+  <input [(ngModel)]="b" />
+</p>
+<button (click)="add()">Add</button>
+<p>Result is: {{ res }}</p>
+<!--this is String Interpolation  one way data binding -->
